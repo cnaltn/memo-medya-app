@@ -2,7 +2,7 @@ import React from "react";
 
 const Referans = () => {
   return (
-    <div className="w-full flex flex-col container pt-6 pb-6 gap-y-10">
+    <div id="ref" className="w-full flex flex-col container pt-6 pb-6 gap-y-10">
       <h1 className="text-4xl text-left tags underline decoration-amber-600 underline-offset-4 font-semibold text-stone-700">
         Referanslarımız
       </h1>

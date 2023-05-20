@@ -13,8 +13,11 @@ const Navbar = () => {
     if (window.scrollY < 845 && !setActive("hero")) {
       setActive("hero");
     }
-    if (window.scrollY >= 941 && !setActive("about")) {
+    if (window.scrollY >= 941 && window.scrollY < 1600 && !setActive("about")) {
       setActive("about");
+    }
+    if (window.scrollY >= 1625 && !setActive("ref")) {
+      setActive("ref");
     }
   };
 
@@ -22,6 +25,7 @@ const Navbar = () => {
     changeBackground();
     // adding the event when scroll change background
     window.addEventListener("scroll", changeBackground);
+    console.log(window.scrollY);
   });
 
   return (
@@ -69,6 +73,22 @@ const Navbar = () => {
             <li>
               <a
                 onClick={() => {
+                  setActive("ref");
+                }}
+                className={
+                  active === "ref"
+                    ? "border-b-4 pt-1 border-amber-600 h-full flex items-center"
+                    : "flex  h-full items-center"
+                }
+                href="#ref"
+              >
+                Referanslarımız
+              </a>
+            </li>
+
+            <li>
+              <a
+                onClick={() => {
                   setActive("contact");
                 }}
                 className={
@@ -79,21 +99,6 @@ const Navbar = () => {
                 href=""
               >
                 İletişim
-              </a>
-            </li>
-            <li>
-              <a
-                onClick={() => {
-                  setActive("ref");
-                }}
-                className={
-                  active === "ref"
-                    ? "border-b-4 pt-1 border-amber-600 h-full flex items-center"
-                    : "flex  h-full items-center"
-                }
-                href=""
-              >
-                Referanslarımız
               </a>
             </li>
           </ul>
