@@ -73,24 +73,7 @@ const Referans = () => {
           height={100}
           src="https://upload.wikimedia.org/wikipedia/en/0/0a/Onur_Air_logo.svg"
         ></img>
-        <img
-          className="cards"
-          width={100}
-          height={100}
-          src="http://www.trabzon.gov.tr/kurumlar/trabzon.gov.tr/YENI_TRABZON/Logo/trabzonvaliliksaydamlogo.png?mode=resize&width=500"
-        ></img>
-        <img
-          className="cards"
-          width={100}
-          height={100}
-          src="http://www.elazig.gov.tr/kurumlar/elazig.gov.tr/site/valilik%20logo/elaziglogo.png?mode=resize&width=500"
-        ></img>
-        <img
-          className="cards"
-          width={100}
-          height={100}
-          src="http://www.gumushane.gov.tr/kurumlar/gumushane.gov.tr/Yukle/logo/Logo%20PNG.png"
-        ></img>
+
         <img
           className="cards"
           width={100}
