@@ -13,10 +13,10 @@ const Navbar = () => {
     if (window.scrollY < 845 && !setActive("hero")) {
       setActive("hero");
     }
-    if (window.scrollY >= 941 && window.scrollY < 1600 && !setActive("about")) {
+    if (window.scrollY >= 941 && window.scrollY < 1450 && !setActive("about")) {
       setActive("about");
     }
-    if (window.scrollY >= 1625 && !setActive("ref")) {
+    if (window.scrollY >= 1478 && !setActive("ref")) {
       setActive("ref");
     }
   };
