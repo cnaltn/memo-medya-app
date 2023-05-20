@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Referans from "./components/Referans";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Hero></Hero>
       <About></About>
       <Referans></Referans>
+      <Footer></Footer>
     </div>
   );
 };

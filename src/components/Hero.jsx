@@ -46,7 +46,7 @@ const Hero = () => {
             </p>
             <a
               href="#about"
-              className=" rounded ring-inset ring-1 ring-white px-4 py-2"
+              className=" rounded hover:bg-amber-600  transition-colors ring-inset ring-1 ring-white px-4 py-2"
             >
               Hakkımızda
             </a>
