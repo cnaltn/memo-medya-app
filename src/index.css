@@ -15,8 +15,24 @@ body,
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1050px;
   margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+a,
+a:hover {
+  color: inherit;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+.swiper-slide {
+  display: flex;
+}
+
+* {
 }

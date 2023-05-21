@@ -33,7 +33,8 @@ const Hero = () => {
           <CCarouselItem className="">
             <CImage
               className="d-block w-100 h-screen object-cover brightness-50"
-              src="https://images.pexels.com/photos/16747771/pexels-photo-16747771/free-photo-of-isvec-te-agacli-yol.jpeg"
+              src="https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+             "
               alt="slide 1"
             />
           </CCarouselItem>
@@ -47,7 +48,7 @@ const Hero = () => {
           <CCarouselItem className="">
             <CImage
               className="d-block w-100 h-screen object-cover brightness-50"
-              src="https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src=" https://images.pexels.com/photos/16747771/pexels-photo-16747771/free-photo-of-isvec-te-agacli-yol.jpeg"
               alt="slide 3"
             />
           </CCarouselItem>
