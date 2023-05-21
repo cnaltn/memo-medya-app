@@ -22,6 +22,7 @@ const Referans = () => {
             spaceBetween={20}
             autoplay={{
               delay: 1000,
+              disableOnInteraction: false,
             }}
             freeMode={true}
             effect={"fade"}
