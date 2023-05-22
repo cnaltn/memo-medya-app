@@ -10,10 +10,11 @@ import {
 import { MdAnimation, MdMovie } from "react-icons/md";
 
 import { RiMovie2Fill } from "react-icons/ri";
+import CustomizedDialogs from "./Openmenu";
 
 const About = () => {
   return (
-    <div className="flex w-full h-max bg-gray-50 pt-32 pb-36" id="about">
+    <div className="flex w-full h-max bg-gray-50 pt-32 " id="about">
       <div className="container gap-y-10 py-8 bg-white  shadow rounded text-stone-700  flex flex-col justify-center ">
         <div className="">
           <h1 className="text-4xl tags underline underline-offset-4 decoration-amber-600 text-left font-semibold ">
@@ -36,9 +37,12 @@ const About = () => {
                 videolar üretiyoruz. Hikayenizi en iyi şekilde aktaracak
                 kaliteli ve özgün içerikler için bize güvenebilirsiniz.
               </p>
-              <button className="px-4 py-2 bg-amber-600 hover:bg-amber-700 transition-colors text-white w-max rounded">
-                Daha Fazlasını Öğren
-              </button>
+              <CustomizedDialogs
+                title={"Video Çekimi"}
+                desc={
+                  "Profesyonel video çekimi için doğru yerdesiniz. Deneyimli ekibimizle, görsel anlatımınızı güçlendirecek etkileyici videolar üretiyoruz. Hikayenizi en iyi şekilde aktara kaliteli ve özgün içerikler için bize güvenebilirsiniz."
+                }
+              ></CustomizedDialogs>
             </div>
           </div>
           <div className="flex gap-x-10 tags">
@@ -55,9 +59,12 @@ const About = () => {
                 profesyonel bir ekip olarak, izleyicilerinizi büyüleyecek ve
                 merakla bekleyecekleri programlar sunuyoruz
               </p>
-              <button className="px-4 py-2 bg-amber-600 hover:bg-amber-700 transition-colors text-white w-max rounded">
-                Daha Fazlasını Öğren
-              </button>
+              <CustomizedDialogs
+                title={"TV Programı"}
+                desc={
+                  " İçerik zenginliği, eğlence ve bilgiyi bir araya getiren profesyonel bir ekip olarak, izleyicilerinizi büyüleyecek ve merakla bekleyecekleri programlar sunuyoruz"
+                }
+              ></CustomizedDialogs>
             </div>
           </div>
           <div className="flex gap-x-10 tags">
@@ -75,9 +82,13 @@ const About = () => {
                 Hedef kitlenizi etkileyecek, akılda kalıcı ve yaratıcı bir
                 hikaye anlatımı için bize güvenebilirsiniz.
               </p>
-              <button className="px-4 py-2 bg-amber-600 hover:bg-amber-700 transition-colors text-white w-max rounded">
-                Daha Fazlasını Öğren
-              </button>
+
+              <CustomizedDialogs
+                title={"Tanıtım Filmi"}
+                desc={
+                  " Profesyonel ekip ve eşsiz görsel anlatımımızla, markanızı etkileyici bir şekilde tanıtacak film projeleri üretiyoruz. Hedef kitlenizi etkileyecek, akılda kalıcı ve yaratıcı bir hikaye anlatımı için bize güvenebilirsiniz."
+                }
+              ></CustomizedDialogs>
             </div>
           </div>
           <div className="flex gap-x-10 tags">
@@ -94,9 +105,13 @@ const About = () => {
                 etkileyici bir şekilde tanıtacak reklam filmleri üretiyoruz.
                 Ürün veya hizmetinizi en iyi şekilde vurguluyoruz.
               </p>
-              <button className="px-4 py-2 bg-amber-600 hover:bg-amber-700 transition-colors text-white w-max rounded">
-                Daha Fazlasını Öğren
-              </button>
+
+              <CustomizedDialogs
+                title={"Reklam Filmleri"}
+                desc={
+                  "Profesyonel ekip ve özgün yaratıcı fikirlerimizle markanızı etkileyici bir şekilde tanıtacak reklam filmleri üretiyoruz. Ürün veya hizmetinizi en iyi şekilde vurguluyoruz."
+                }
+              ></CustomizedDialogs>
             </div>
           </div>
         </div>

@@ -6,11 +6,8 @@ import { FreeMode, Pagination, Autoplay } from "swiper";
 
 const Referans = () => {
   return (
-    <div className="bg-gray-50 pb-4">
-      <div
-        id="ref"
-        className="w-full flex flex-col bg-white container shadow rounded py-8 gap-y-10"
-      >
+    <div id="ref" className="bg-gray-50 pb-4 pt-32">
+      <div className="w-full flex flex-col bg-white container shadow rounded py-8 gap-y-10">
         <h1 className="text-4xl text-left tags underline decoration-amber-600 underline-offset-4 font-semibold text-stone-700">
           Referanslarımız
         </h1>
