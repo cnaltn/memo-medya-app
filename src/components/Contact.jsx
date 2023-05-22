@@ -5,7 +5,7 @@ import Address from "./Address";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full flex h-max bg-gray-50 pt-32 pb-32">
+    <div id="contact" className="w-full flex h-max bg-gray-50 pt-28 pb-32">
       <div className="container shadow py-8 flex flex-col gap-y-10 h-max rounded">
         <h1 className="text-4xl tags underline underline-offset-4 decoration-amber-600 text-left font-semibold ">
           İletişim
