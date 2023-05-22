@@ -1,7 +1,12 @@
 import React, { useEffect } from "react";
 import Navbar from "./Navbar";
 import ScrollReveal from "scrollreveal";
-import { CCarouselItem, CCarousel, CImage } from "@coreui/react";
+import {
+  CCarouselItem,
+  CCarousel,
+  CImage,
+  CCarouselCaption,
+} from "@coreui/react";
 
 const Hero = () => {
   useEffect(() => {
@@ -37,6 +42,25 @@ const Hero = () => {
              "
               alt="slide 1"
             />
+            <CCarouselCaption className="flex flex-col h-full gap-y-5 items-center justify-center">
+              <h1 className=" text-5xl font-bold">
+                Yaratıcı. Profesyonel. Etkileyici.
+              </h1>
+              <p className="text-xl font-thin">
+                <span className="font-semibold">Demha Medya</span>, yaratıcı
+                belgesel videografik çalışmalarıyla öne çıkan bir şirkettir.
+                Profesyonel ekip ve teknolojiyle donatılmış olan{" "}
+                <span className="font-semibold">Demha Medya</span>,
+                hikayelerinizi etkileyici bir şekilde anlatmak için özgün ve
+                çarpıcı görsel anlatımı bir araya getiriyor.
+              </p>
+              <a
+                href="#about"
+                className=" rounded hover:bg-amber-600  w-max transition-colors ring-inset ring-1 ring-white px-4 py-2"
+              >
+                Hakkımızda
+              </a>
+            </CCarouselCaption>
           </CCarouselItem>
           <CCarouselItem className="">
             <CImage
@@ -44,6 +68,18 @@ const Hero = () => {
               src="https://images.pexels.com/photos/15488258/pexels-photo-15488258/free-photo-of-siyah-ve-beyaz-peyzaj-orman-agaclar.jpeg"
               alt="slide 2"
             />
+            <CCarouselCaption className="flex flex-col h-full gap-y-5 items-center justify-center">
+              <h1 className=" text-5xl font-bold">Sayfa 2</h1>
+              <p className="text-xl font-thin">
+                <span className="font-semibold">Demha Medya</span> sayfa 2
+              </p>
+              <a
+                href="#about"
+                className=" rounded hover:bg-amber-600  w-max transition-colors ring-inset ring-1 ring-white px-4 py-2"
+              >
+                Hakkımızda
+              </a>
+            </CCarouselCaption>
           </CCarouselItem>
           <CCarouselItem className="">
             <CImage
@@ -51,29 +87,20 @@ const Hero = () => {
               src=" https://images.pexels.com/photos/16747771/pexels-photo-16747771/free-photo-of-isvec-te-agacli-yol.jpeg"
               alt="slide 3"
             />
+            <CCarouselCaption className="flex flex-col h-full gap-y-5 items-center justify-center">
+              <h1 className=" text-5xl font-bold">Sayfa 3</h1>
+              <p className="text-xl font-thin">
+                <span className="font-semibold">Demha Medya</span> sayfa 3
+              </p>
+              <a
+                href="#about"
+                className=" rounded hover:bg-amber-600  w-max transition-colors ring-inset ring-1 ring-white px-4 py-2"
+              >
+                Hakkımızda
+              </a>
+            </CCarouselCaption>
           </CCarouselItem>
         </CCarousel>
-        <div className="relative headline z-30 container w-full mx-auto">
-          <div className="flex  flex-col w-full text-white gap-y-10 text-center justify-center items-center">
-            <h1 className=" text-5xl font-bold">
-              Yaratıcı. Profesyonel. Etkileyici.
-            </h1>
-            <p className="text-xl font-thin">
-              <span className="font-semibold">Demha Medya</span>, yaratıcı
-              belgesel videografik çalışmalarıyla öne çıkan bir şirkettir.
-              Profesyonel ekip ve teknolojiyle donatılmış olan{" "}
-              <span className="font-semibold">Demha Medya</span>, hikayelerinizi
-              etkileyici bir şekilde anlatmak için özgün ve çarpıcı görsel
-              anlatımı bir araya getiriyor.
-            </p>
-            <a
-              href="#about"
-              className=" rounded hover:bg-amber-600  transition-colors ring-inset ring-1 ring-white px-4 py-2"
-            >
-              Hakkımızda
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   );

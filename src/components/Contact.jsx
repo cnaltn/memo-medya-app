@@ -1,6 +1,7 @@
 import React from "react";
 import Form from "./Form";
 import MapLocate from "./MapLocate";
+import Address from "./Address";
 
 const Contact = () => {
   return (
