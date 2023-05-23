@@ -11,6 +11,7 @@ import { MdAnimation, MdMovie } from "react-icons/md";
 
 import { RiMovie2Fill } from "react-icons/ri";
 import CustomizedDialogs from "./Openmenu";
+import Jobs from "./Jobs";
 
 const About = () => {
   return (
@@ -21,98 +22,47 @@ const About = () => {
             Neler Yapıyoruz?
           </h1>
         </div>
-        <div className="flex flex-col  gap-y-24 leading-relaxed">
-          <div className="flex gap-x-10 tags">
-            <div className="w-[45%] flex">
-              <img
-                className="rounded object-cover"
-                src="https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              ></img>
-            </div>
-            <div className="w-[55%] flex flex-col gap-y-5 justify-center">
-              <h1 className="text-4xl font-bold">Video Çekimi</h1>
-              <p className="text-justify">
-                Profesyonel video çekimi için doğru yerdesiniz. Deneyimli
-                ekibimizle, görsel anlatımınızı güçlendirecek etkileyici
-                videolar üretiyoruz. Hikayenizi en iyi şekilde aktaracak
-                kaliteli ve özgün içerikler için bize güvenebilirsiniz.
-              </p>
-              <CustomizedDialogs
-                title={"Video Çekimi"}
-                desc={
-                  "Profesyonel video çekimi için doğru yerdesiniz. Deneyimli ekibimizle, görsel anlatımınızı güçlendirecek etkileyici videolar üretiyoruz. Hikayenizi en iyi şekilde aktara kaliteli ve özgün içerikler için bize güvenebilirsiniz."
-                }
-              ></CustomizedDialogs>
-            </div>
-          </div>
-          <div className="flex gap-x-10 tags">
-            <div className="w-[45%] flex order-2">
-              <img
-                className="rounded object-cover"
-                src="https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              ></img>
-            </div>
-            <div className="w-[55%] flex flex-col gap-y-5 justify-center">
-              <h1 className="text-4xl font-bold">TV Programı</h1>
-              <p className="text-justify">
-                İçerik zenginliği, eğlence ve bilgiyi bir araya getiren
-                profesyonel bir ekip olarak, izleyicilerinizi büyüleyecek ve
-                merakla bekleyecekleri programlar sunuyoruz
-              </p>
-              <CustomizedDialogs
-                title={"TV Programı"}
-                desc={
-                  " İçerik zenginliği, eğlence ve bilgiyi bir araya getiren profesyonel bir ekip olarak, izleyicilerinizi büyüleyecek ve merakla bekleyecekleri programlar sunuyoruz"
-                }
-              ></CustomizedDialogs>
-            </div>
-          </div>
-          <div className="flex gap-x-10 tags">
-            <div className="w-[45%] flex ">
-              <img
-                className="rounded object-cover"
-                src="https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              ></img>
-            </div>
-            <div className="w-[55%] flex flex-col gap-y-5 justify-center">
-              <h1 className="text-4xl font-bold">Tanıtım Filmi</h1>
-              <p className="text-justify">
-                Profesyonel ekip ve eşsiz görsel anlatımımızla, markanızı
-                etkileyici bir şekilde tanıtacak film projeleri üretiyoruz.
-                Hedef kitlenizi etkileyecek, akılda kalıcı ve yaratıcı bir
-                hikaye anlatımı için bize güvenebilirsiniz.
-              </p>
-
-              <CustomizedDialogs
-                title={"Tanıtım Filmi"}
-                desc={
-                  " Profesyonel ekip ve eşsiz görsel anlatımımızla, markanızı etkileyici bir şekilde tanıtacak film projeleri üretiyoruz. Hedef kitlenizi etkileyecek, akılda kalıcı ve yaratıcı bir hikaye anlatımı için bize güvenebilirsiniz."
-                }
-              ></CustomizedDialogs>
-            </div>
-          </div>
-          <div className="flex gap-x-10 tags">
-            <div className="w-[45%] flex order-2 ">
-              <img
-                className="rounded object-cover"
-                src="https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              ></img>
-            </div>
-            <div className="w-[55%] flex flex-col gap-y-5 justify-center">
-              <h1 className="text-4xl font-bold">Reklam Filmleri</h1>
-              <p className="text-justify">
-                Profesyonel ekip ve özgün yaratıcı fikirlerimizle markanızı
-                etkileyici bir şekilde tanıtacak reklam filmleri üretiyoruz.
-                Ürün veya hizmetinizi en iyi şekilde vurguluyoruz.
-              </p>
-
-              <CustomizedDialogs
-                title={"Reklam Filmleri"}
-                desc={
-                  "Profesyonel ekip ve özgün yaratıcı fikirlerimizle markanızı etkileyici bir şekilde tanıtacak reklam filmleri üretiyoruz. Ürün veya hizmetinizi en iyi şekilde vurguluyoruz."
-                }
-              ></CustomizedDialogs>
-            </div>
+        <div className="flex flex-col leading-relaxed">
+          <div className="flex flex-col gap-y-24 gap-x-10 tags">
+            <Jobs
+              jobs_img={
+                "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              }
+              jobs_title={"Video Çekimi"}
+              jobs_desc={
+                "Profesyonel video çekimi için doğru yerdesiniz. Deneyimli ekibimizle, görsel anlatımınızı güçlendirecek etkileyici videolar üretiyoruz. Hikayenizi en iyi şekilde aktaracak kaliteli ve özgün içerikler için bize güvenebilirsiniz."
+              }
+            ></Jobs>
+            <Jobs
+              jobs_img={
+                "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              }
+              jobs_title={"TV Programı"}
+              jobs_desc={
+                "İçerik zenginliği, eğlence ve bilgiyi bir araya getiren profesyonel bir ekip olarak, izleyicilerinizi büyüleyecek ve merakla bekleyecekleri programlar sunuyoruz"
+              }
+              flex_order={"order-1"}
+            ></Jobs>
+            <Jobs
+              jobs_img={
+                "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              }
+              jobs_title={"TV Programı"}
+              jobs_desc={
+                "İçerik zenginliği, eğlence ve bilgiyi bir araya getiren profesyonel bir ekip olarak, izleyicilerinizi büyüleyecek ve merakla bekleyecekleri programlar sunuyoruz"
+              }
+              flex_order={"order-0"}
+            ></Jobs>
+            <Jobs
+              jobs_img={
+                "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              }
+              jobs_title={"Reklam Filmleri"}
+              jobs_desc={
+                "Profesyonel ekip ve özgün yaratıcı fikirlerimizle markanızı etkileyici bir şekilde tanıtacak reklam filmleri üretiyoruz. Ürün veya hizmetinizi en iyi şekilde vurguluyoruz."
+              }
+              flex_order={"order-1"}
+            ></Jobs>
           </div>
         </div>
       </div>
