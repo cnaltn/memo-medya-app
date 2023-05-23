@@ -59,7 +59,7 @@ export default function CustomizedDialogs({ title, desc }) {
   };
 
   return (
-    <div>
+    <div className="">
       <Button
         variant="contained"
         class="bg-amber-600 hover:bg-amber-700 transition-colors rounded px-4 py-2 text-white"
@@ -69,7 +69,7 @@ export default function CustomizedDialogs({ title, desc }) {
       </Button>
       <BootstrapDialog
         onClose={handleClose}
-        className=" "
+        className=""
         aria-labelledby="customized-dialog-title"
         open={open}
       >

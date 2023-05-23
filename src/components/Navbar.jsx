@@ -10,18 +10,18 @@ const Navbar = () => {
     } else {
       setNavbar(false);
     }
-    if (window.scrollY < 845 && !setActive("hero")) {
-      setActive("hero");
-    }
-    if (window.scrollY >= 900 && window.scrollY < 2500 && !setActive("about")) {
-      setActive("about");
-    }
-    if (window.scrollY >= 2636 && window.scrollY < 3000 && !setActive("ref")) {
-      setActive("ref");
-    }
-    if (window.scrollY >= 3000 && !setActive("contact")) {
-      setActive("contact");
-    }
+    // if (window.scrollY < 845 && !setActive("hero")) {
+    //   setActive("hero");
+    // }
+    // if (window.scrollY >= 900 && window.scrollY < 2500 && !setActive("about")) {
+    //   setActive("about");
+    // }
+    // if (window.scrollY >= 2636 && window.scrollY < 3000 && !setActive("ref")) {
+    //   setActive("ref");
+    // }
+    // if (window.scrollY >= 3000 && !setActive("contact")) {
+    //   setActive("contact");
+    // }
   };
 
   useEffect(() => {
@@ -34,8 +34,8 @@ const Navbar = () => {
     <div
       className={
         navbar == true
-          ? "w-full  text-stone-800 bg-white  justify-center z-40 flex fixed transition-colors shadow-lg "
-          : "w-full text-white  justify-center z-40 flex fixed transition-colors shadow-lg backdrop-blur-sm"
+          ? "w-full  text-stone-800 bg-white  justify-center z-40 flex fixed transition-colors shadow-lg px-3 "
+          : "w-full text-white  justify-center z-40 flex fixed transition-colors shadow-lg backdrop-blur-sm px-3"
       }
     >
       <div className="w-full h-20 flex items-center justify-between container ">
@@ -101,6 +101,21 @@ const Navbar = () => {
                 href="#contact"
               >
                 İletişim
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={() => {
+                  setActive("address");
+                }}
+                className={
+                  active === "address"
+                    ? "border-b-4 pt-1 border-amber-600 h-full flex items-center"
+                    : "flex  h-full items-center"
+                }
+                href="#address"
+              >
+                Adresimiz
               </a>
             </li>
           </ul>

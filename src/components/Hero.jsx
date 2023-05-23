@@ -7,6 +7,7 @@ import {
   CImage,
   CCarouselCaption,
 } from "@coreui/react";
+import Nav from "./Nav";
 
 const Hero = () => {
   useEffect(() => {

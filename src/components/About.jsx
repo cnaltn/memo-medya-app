@@ -14,7 +14,7 @@ import CustomizedDialogs from "./Openmenu";
 
 const About = () => {
   return (
-    <div className="flex w-full h-max bg-gray-50 pt-32 " id="about">
+    <div className="flex w-full h-max bg-gray-100 pt-32 px-3" id="about">
       <div className="container gap-y-10 py-8 bg-white  shadow rounded text-stone-700  flex flex-col justify-center ">
         <div className="">
           <h1 className="text-4xl tags underline underline-offset-4 decoration-amber-600 text-left font-semibold ">
