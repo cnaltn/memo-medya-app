@@ -16,7 +16,7 @@ const App = () => {
       <About></About>
       <Referans></Referans>
       <Contact></Contact>
-      <Address></Address>
+
       <Footer></Footer>
     </div>
   );

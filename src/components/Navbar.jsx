@@ -33,9 +33,7 @@ const Navbar = () => {
   return (
     <div
       className={
-        navbar == true
-          ? "w-full  text-stone-800 bg-white  justify-center z-40 flex fixed transition-colors shadow-lg px-3 "
-          : "w-full text-white  justify-center z-40 flex fixed transition-colors shadow-lg backdrop-blur-sm px-3"
+        "w-full  text-stone-800 bg-white  justify-center z-40 flex fixed transition-colors shadow-lg px-3 "
       }
     >
       <div className="w-full h-20 flex items-center justify-between container ">

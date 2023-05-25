@@ -26,7 +26,7 @@ const About = () => {
           <div className="flex flex-col gap-y-24 gap-x-10 tags">
             <Jobs
               jobs_img={
-                "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                "https://images.pexels.com/photos/2608519/pexels-photo-2608519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               }
               jobs_title={"Video Çekimi"}
               jobs_desc={
@@ -35,7 +35,7 @@ const About = () => {
             ></Jobs>
             <Jobs
               jobs_img={
-                "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                "https://images.pexels.com/photos/2510428/pexels-photo-2510428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               }
               jobs_title={"TV Programı"}
               jobs_desc={
@@ -45,9 +45,9 @@ const About = () => {
             ></Jobs>
             <Jobs
               jobs_img={
-                "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                "https://images.pexels.com/photos/403495/pexels-photo-403495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               }
-              jobs_title={"TV Programı"}
+              jobs_title={"Fotoğraf Çekimi"}
               jobs_desc={
                 "İçerik zenginliği, eğlence ve bilgiyi bir araya getiren profesyonel bir ekip olarak, izleyicilerinizi büyüleyecek ve merakla bekleyecekleri programlar sunuyoruz"
               }
@@ -55,7 +55,7 @@ const About = () => {
             ></Jobs>
             <Jobs
               jobs_img={
-                "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                " https://images.pexels.com/photos/1870438/pexels-photo-1870438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               }
               jobs_title={"Reklam Filmleri"}
               jobs_desc={

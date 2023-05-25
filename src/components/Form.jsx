@@ -3,6 +3,9 @@ import React from "react";
 const Form = () => {
   return (
     <div>
+      <h1 className="text-4xl pb-10 text-stone-700 tags underline underline-offset-4 decoration-amber-600 text-left font-semibold ">
+        İletişim
+      </h1>
       <form className="tags">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">
