@@ -1,23 +1,26 @@
 import React from "react";
-import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Referans from "./components/Referans";
 import Footer from "./components/Footer";
 import "@coreui/coreui/dist/css/coreui.min.css";
 import Contact from "./components/Contact";
-
-import Address from "./components/Address";
+import { useState } from "react";
+import Bakim from "./components/bakim";
 
 const App = () => {
-  return (
-    <div className="">
-      <Hero></Hero>
-      <About></About>
-      <Referans></Referans>
-      <Contact></Contact>
+  const [bakim, setBakim] = useState(true);
 
-      <Footer></Footer>
+  return (
+    <div>
+      {bakim === true ? <Bakim></Bakim> : ""}
+      <div className={bakim === true ? "hidden" : ""}>
+        <Hero></Hero>
+        <About></About>
+        <Referans></Referans>
+        <Contact></Contact>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };
