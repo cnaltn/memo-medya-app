@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import "@coreui/coreui/dist/css/coreui.min.css";
 import Contact from "./components/Contact";
 import { useState } from "react";
-import Bakim from "./components/bakim";
+import Bakim from "./components/Bakim";
 
 const App = () => {
   const [bakim, setBakim] = useState(true);
