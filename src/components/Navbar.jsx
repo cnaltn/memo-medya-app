@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from "react";
 
 const Navbar = () => {
-  const [navbar, setNavbar] = useState(false);
+  const [navbarColor, setNavbarColor] = useState("bg-transparent");
+  const [textColor, setTextColor] = useState("text-white");
   const [active, setActive] = useState("");
 
   const changeBackground = () => {
     if (window.scrollY >= 20) {
-      setNavbar(true);
+      setNavbarColor("bg-white");
+      setTextColor("text-stone-800");
     } else {
-      setNavbar(false);
+      setNavbarColor("bg-transparent");
+      setTextColor("text-white");
     }
     // if (window.scrollY < 845 && !setActive("hero")) {
     //   setActive("hero");
@@ -32,12 +35,15 @@ const Navbar = () => {
 
   return (
     <div
-      className={
-        "w-full  text-stone-800 bg-white  justify-center z-40 flex fixed transition-colors shadow-lg px-3 "
-      }
+      className={`w-full  ${textColor}  ${navbarColor} justify-center z-40 flex fixed transition-colors backdrop-blur-lg shadow-lg drop-shadow-lg px-3`}
     >
       <div className="w-full h-20 flex items-center justify-between container ">
-        <img className="flex w-32" src="/images/logo_text.png"></img>
+        <h1 className="flex flex-col leading-none ">
+          <span className="text-4xl leading-none font-semibold">Memo</span>{" "}
+          <span className=" text-lg leading-none justify-center flex">
+            medya
+          </span>
+        </h1>
         <div className=" h-full flex ">
           <ul className="flex gap-x-5 h-full">
             <li>

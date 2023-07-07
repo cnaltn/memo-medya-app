@@ -44,16 +44,14 @@ const Hero = () => {
               alt="slide 1"
             />
             <CCarouselCaption className="flex flex-col h-full gap-y-5 items-center justify-center">
-              <h1 className=" text-5xl font-bold">
-                Yaratıcı. Profesyonel. Etkileyici.
-              </h1>
+              <h1 className=" text-5xl font-bold">Yaratıcı</h1>
               <p className="text-xl font-thin">
-                <span className="font-semibold">Demha Medya</span>, yaratıcı
+                <span className="font-semibold">Memo Medya</span>, yaratıcı
                 belgesel videografik çalışmalarıyla öne çıkan bir şirkettir.
                 Profesyonel ekip ve teknolojiyle donatılmış olan{" "}
-                <span className="font-semibold">Demha Medya</span>,
+                <span className="font-semibold">Memo Medya</span>,
                 hikayelerinizi etkileyici bir şekilde anlatmak için özgün ve
-                çarpıcı görsel anlatımı bir araya getiriyor.
+                çarpıcı görsel anlatımı bir araya getiriyor
               </p>
               <a
                 href="#about"
@@ -70,9 +68,14 @@ const Hero = () => {
               alt="slide 2"
             />
             <CCarouselCaption className="flex flex-col h-full gap-y-5 items-center justify-center">
-              <h1 className=" text-5xl font-bold">Sayfa 2</h1>
+              <h1 className=" text-5xl font-bold">Profesyonel</h1>
               <p className="text-xl font-thin">
-                <span className="font-semibold">Demha Medya</span> sayfa 2
+                <span className="font-semibold">Memo Medya</span>, yaratıcı
+                belgesel videografik çalışmalarıyla öne çıkan bir şirkettir.
+                Profesyonel ekip ve teknolojiyle donatılmış olan{" "}
+                <span className="font-semibold">Memo Medya</span>,
+                hikayelerinizi etkileyici bir şekilde anlatmak için özgün ve
+                çarpıcı görsel anlatımı bir araya getiriyor
               </p>
               <a
                 href="#about"
@@ -89,9 +92,14 @@ const Hero = () => {
               alt="slide 3"
             />
             <CCarouselCaption className="flex flex-col h-full gap-y-5 items-center justify-center">
-              <h1 className=" text-5xl font-bold">Sayfa 3</h1>
+              <h1 className=" text-5xl font-bold">Etkileyici</h1>
               <p className="text-xl font-thin">
-                <span className="font-semibold">Demha Medya</span> sayfa 3
+                <span className="font-semibold">Memo Medya</span>, yaratıcı
+                belgesel videografik çalışmalarıyla öne çıkan bir şirkettir.
+                Profesyonel ekip ve teknolojiyle donatılmış olan{" "}
+                <span className="font-semibold">Memo Medya</span>,
+                hikayelerinizi etkileyici bir şekilde anlatmak için özgün ve
+                çarpıcı görsel anlatımı bir araya getiriyor
               </p>
               <a
                 href="#about"

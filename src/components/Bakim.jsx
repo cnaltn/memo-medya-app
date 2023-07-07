@@ -9,8 +9,13 @@ const Bakim = () => {
             <span className=" text-5xl text-stone-700">Yakında buradayız</span>
           </p>
         </div>
-        <div className="h-full flex items-end pb-4">
-          <img height={200} width={200} src="/images/logo_full.png"></img>
+        <div className="h-full flex items-end pb-4 ">
+          <h1 className="flex flex-col leading-none animate-pulse ">
+            <span className="text-4xl leading-none font-semibold">Memo</span>{" "}
+            <span className=" text-lg leading-none flex justify-center">
+              medya
+            </span>
+          </h1>
         </div>
       </div>
     </div>
